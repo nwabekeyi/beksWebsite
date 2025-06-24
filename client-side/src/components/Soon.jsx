@@ -14,8 +14,7 @@ function Soon() {
                 <p className="heading blockHeading">A new way to manage</p>
                 <p className="desc" style={{ maxWidth: "635px" }}>Our new project management feature simplifies how you plan, track, and collaborate on projects. With customizable workflows, intuitive task assignments, and real-time progress updates, staying on top of your projects has never been easier.</p>
                 <div className="links soonLinks">
-                    <a href="#" className="wait">Join waitlist</a>
-                    <a href="https://www.gitbook.com/" target='_blank' className="wait">See docs</a>
+                    <a href="#" className="wait">Contact us</a>
                 </div>
 
                 <div className="heroImg soonImg">

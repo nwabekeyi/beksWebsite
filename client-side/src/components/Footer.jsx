@@ -10,7 +10,7 @@ function Footer() {
                 <div className="footerFlex">
                     <div>
                         <a href="#" style={{ display: "flex", width: "fit-content" }}>
-                            <img src="/logo.svg" alt="logo" style={{ width: 92 }} />
+                            <img src="/beks_white.png" alt="logo" style={{ width: 120 }} />
                         </a>
                         <span>A leading SaaS provider committed to simplifying workflows, enhancing collaboration, and driving growth for businesses of all sizes.</span>
                     </div>
@@ -21,7 +21,6 @@ function Footer() {
                             <li><a href="#solutions">Solutions</a></li>
                             <li><a href="#team">Team</a></li>
                             <li><a href="#faq">FAQ</a></li>
-                            <li><a href="https://www.gitbook.com/" target='_blank'>Docs</a></li>
                         </ul>
                         <ul>
                             <li>Socials</li>
@@ -31,7 +30,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footerFlexTwo">
-                    <p className='copyright'>© 2025 <span>Lumify</span>. All Rights Reserved.</p>
+                    <p className='copyright'>© 2025 <span>Beks</span>. All Rights Reserved.</p>
                     <div>
                         <a href="#">Terms & Conditions</a>
                         <a href="#">Privacy Policy</a>

@@ -12,14 +12,13 @@ function Hero() {
   return (
     <div className="heroBlock" style={{ position: "relative" }}>
       <div className='Hero'>
-        <center><p className='subHead'>More than a platform</p></center>
-        <center><p className="heading">Transform the way you work</p></center>
+        <center><p className='subHead'>More than a solution</p></center>
+        <center><p className="heading">Transform your life with tech</p></center>
         <center>
-          <p className="desc">Empower your team with an all-in-one solution designed to streamline workflows, boost collaboration, and drive productivity.</p>
+          <p className="desc">Empower your team and yourself with our solutions designed to streamline growth and drive productivity.</p>
         </center>
         <div className="links">
-          <a href="#join" className="wait">Join waitlist</a>
-          <a href="https://www.gitbook.com/" target='_blank' className="wait">See docs</a>
+          <a href="#join" className="wait">Contact us</a>
         </div>
 
         <center>
