@@ -10,7 +10,9 @@ function Features() {
             <center><p className='subHead'>Features</p></center>
             <center><p className="heading blockHeading">It’s packed with all you need</p></center>
             <center>
-                <p className="desc blockDesc">Discover our features designed to make your workflow simpler, smarter, and more effective. Explore how we help you achieve more with ease.</p>
+                <p className="desc blockDesc">
+                    From interactive coding lessons to project-based learning and real-time progress tracking, explore the tools and resources that make tech learning fun and engaging for secondary school students.
+                </p>
             </center>
 
             <div className="features">

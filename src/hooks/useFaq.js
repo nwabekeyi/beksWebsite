@@ -3,11 +3,26 @@ import { useState } from "react";
 
 function useFaqToggle() {
     const questions = [
-        { question: "What is the Product, and how does it work?", answer: "The Product is an all-in-one solution designed to help businesses streamline workflows, collaborate effectively, and gain valuable insights. Learn more about how it can fit your needs by exploring our features." },
-        { question: "Is my data secure with the Product?", answer: "Yes, your data is fully secure. We use industry-leading encryption and security measures to ensure that your information remains protected at all times." },
-        { question: "Can I integrate the Product with other tools I use?", answer: "Absolutely! The Product seamlessly integrates with a wide range of tools, allowing you to connect your existing software and streamline your workflow." },
-        { question: "Do you offer a free trial or demo?", answer: "Yes, we offer a free trial and demo so you can explore all the features of the Product before committing. Get started today and see how it works for you." },
-        { question: "What kind of support does the Product provide?", answer: "We provide comprehensive support, including live chat, email assistance, and an extensive knowledge base. Our team is here to help you every step of the way." },
+        { 
+            question: "What is this platform about?", 
+            answer: "Our platform is dedicated to teaching secondary school students various technology skills, from basic computer literacy to web development, graphic design, and coding." 
+        },
+        { 
+            question: "Do I need prior experience to join the courses?", 
+            answer: "Not at all! Our courses are designed for beginners. Whether you’ve never touched a computer before or have some experience, there’s something for you." 
+        },
+        { 
+            question: "What courses are available?", 
+            answer: "We offer courses in Web Development, Graphic Design, Coding (Python & JavaScript), Robotics, and Digital Marketing. More courses are being added regularly." 
+        },
+        { 
+            question: "Is there any certificate after completing a course?", 
+            answer: "Yes, after completing a course and passing the assessments, you will receive a certificate of completion to showcase your new skills." 
+        },
+        { 
+            question: "How do I get started?", 
+            answer: "Simply sign up on our website, choose a course, and begin learning. Our friendly support team is also available to guide you if you need help." 
+        },
     ];
 
     const [openFaqs, setOpenFaqs] = useState({});

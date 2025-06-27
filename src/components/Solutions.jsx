@@ -11,8 +11,10 @@ function Solutions() {
         <div className='Block solutionsBlock' id='solutions'>
             <div className="sectionHead">
                 <p className='subHead'>Solutions</p>
-                <p className="heading blockHeading" style={{ maxWidth: "420px" }}>There is something for every team</p>
-                <p className="desc blockDesc" style={{ maxWidth: "520px" }}>Discover how the platform meets your team's unique needs and helps you solve even most challenging tasks.</p>
+                <p className="heading blockHeading" style={{ maxWidth: "420px" }}>Tech Solutions Tailored for Students</p>
+                <p className="desc blockDesc" style={{ maxWidth: "520px" }}>
+                    Whether it's coding, web design, digital creativity, or robotics, we provide hands-on learning solutions designed specifically for secondary school students eager to explore technology.
+                </p>
             </div>
 
             <div className="solutions">

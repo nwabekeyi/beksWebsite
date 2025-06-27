@@ -4,25 +4,21 @@ import { useState } from 'react';
 const useFeatures = () => {
     const [features] = useState([
         {
-            title: "Sharing and Collaboration",
-            description: "Work together seamlessly with real-time sharing and collaborative tools. Empower your team to contribute, communicate, and achieve goals—no matter where they are.",
+            title: "Interactive Learning",
+            description: "Students enjoy hands-on lessons with interactive coding challenges, quizzes, and projects designed to make learning technology fun and engaging.",
             image: "/features/f1.avif"
         },
         {
-            title: "Task Management",
-            description: "Stay organized and in control with intuitive task management. Prioritize, track, and complete tasks efficiently, ensuring nothing falls through the cracks.",
+            title: "Beginner-Friendly Content",
+            description: "No prior tech experience? No problem! Our content starts from the basics and gradually builds up, making it perfect for students with little or no background in technology.",
             image: "/features/f2.avif"
         },
         {
-            title: "Logic and Automation",
-            description: "Streamline your workflow with intelligent logic and powerful automation. Save time by automating repetitive tasks, so you can focus on what matters most.",
+            title: "Progress Tracking and Certification",
+            description: "Students can track their progress, earn badges along the way, and receive certificates after completing each course—great for building their tech portfolio.",
             image: "/features/f3.avif"
-        },
-        {
-            title: "Integrations",
-            description: "Connect effortlessly with the tools you already use. With versatile integrations, bring all your apps together for a unified, productive experience.",
-            image: "/features/f4.avif"
         }
+        
     ]);
 
     return features;

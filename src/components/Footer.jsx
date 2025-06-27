@@ -12,7 +12,8 @@ function Footer() {
                         <a href="#" style={{ display: "flex", width: "fit-content" }}>
                             <img src="/beks_white.png" alt="logo" style={{ width: 120 }} />
                         </a>
-                        <span>A leading SaaS provider committed to simplifying workflows, enhancing collaboration, and driving growth for businesses of all sizes.</span>
+                        <span>A leading tech solution provider committed to Inspiring students with hands-on tech education in coding, web design, graphics, robotics, and digital skills for the future.</span>
+
                     </div>
                     <div className='footerLinks'>
                         <ul>
