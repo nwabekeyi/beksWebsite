@@ -13,9 +13,11 @@ function Faq() {
     return (
         <div className='Block faqBlock' id='faq'>
             <center><p className="subHead">FAQ</p></center>
-            <center><p className="heading blockHeading">Questions you might have</p></center>
+            <center><p className="heading blockHeading">Frequently Asked Questions About Our Tech Services</p></center>
             <center>
-                <p className="desc blockDesc">Explore our FAQs to learn more about how our product works, what it offers, and how it can help you achieve your team's goals.</p>
+                <p className="desc blockDesc">
+                    Have questions about our services like website & app development, tech consulting, or training programs? Browse our FAQs to get quick answers or reach out to us directly for more info.
+                </p>
             </center>
 
             <div className="faqs">

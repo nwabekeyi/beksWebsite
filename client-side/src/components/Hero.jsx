@@ -13,9 +13,9 @@ function Hero() {
     <div className="heroBlock" style={{ position: "relative" }}>
       <div className='Hero'>
         <center><p className='subHead'>More than a solution</p></center>
-        <center><p className="heading">Transform your life with tech</p></center>
+        <center><p className="heading">Your Partner in Tech Solutions, Development, and Training</p></center>
         <center>
-          <p className="desc">Empower your team and yourself with our solutions designed to streamline growth and drive productivity.</p>
+          <p className="desc">Whether you need a custom website, a mobile app, tech consulting, or digital skills training, we help businesses, schools, and individuals achieve their technology goals.</p>
         </center>
         <div className="links">
           <a href="#join" className="wait">Contact us</a>
@@ -28,7 +28,7 @@ function Hero() {
         </center>
 
         <div className="logos" style={{ zIndex: 1, position: "relative" }}>
-          <center><span style={span}>Used by great teams</span></center>
+          <center><span style={span}>Trusted by Schools, Businesses, and Growing Teams</span></center>
           <div>
             <img src="/hero/l1.svg" alt="image" />
             <img src="/hero/l2.svg" alt="image" />

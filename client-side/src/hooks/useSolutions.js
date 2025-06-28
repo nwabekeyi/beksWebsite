@@ -4,18 +4,18 @@ const useSolutions = () => {
     const [solutions] = useState([
         {
             img: "/solutions/s1.avif",
-            title: "Operations",
-            description: "Streamline processes, improve efficiency, and ensure seamless collaboration across your team."
+            title: "Web & App Development",
+            description: "We build custom websites and mobile applications that are fast, responsive, and tailored to meet your business or organizational goals."
         },
         {
             img: "/solutions/s2.avif",
-            title: "Marketing",
-            description: "Boost campaign effectiveness, track performance, and collaborate effortlessly, all in one place."
+            title: "Tech Training & Capacity Building",
+            description: "We offer hands-on tech training for students, businesses, and individuals—covering coding, design, digital skills, and more."
         },
         {
             img: "/solutions/s3.avif",
-            title: "Development",
-            description: "Enhance productivity, automate workflows, and integrate seamlessly with existing tools."
+            title: "IT Consulting & Digital Strategy",
+            description: "Our experts provide strategic advice to help businesses leverage technology effectively—from infrastructure planning to digital transformation."
         }
     ]);
 

@@ -8,11 +8,12 @@ function Features() {
     return (
         <div className='Block featuresBlock' id='features'>
             <center><p className='subHead'>Features</p></center>
-            <center><p className="heading blockHeading">It’s packed with all you need</p></center>
+            <center><p className="heading blockHeading">Powerful Features Tailored for Your Tech Needs</p></center>
             <center>
-                <p className="desc blockDesc">Discover our features designed to make your workflow simpler, smarter, and more effective. Explore how we help you achieve more with ease.</p>
+                <p className="desc blockDesc">
+                    From web and mobile app development to digital training and expert tech consulting, our solutions come packed with features that help businesses, schools, and individuals succeed in today’s digital world.
+                </p>
             </center>
-
             <div className="features">
                 {features.map((feature, index) => (
                     <div className="feature" key={index}>
