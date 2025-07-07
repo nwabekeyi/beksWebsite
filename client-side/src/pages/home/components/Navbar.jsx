@@ -12,7 +12,7 @@ function Navbar({ click }) {
         <div className='Navbar'>
             <nav>
                 <a href="#" style={{ display: "flex" }}>
-                    <img src="/beks_white.png" alt="logo" style={{ width: 100 }} />
+                    <img src="/beks_white.png" alt="logo" style={{ width: 'auto', height: '70px' }} />
                 </a>
 
                 {
